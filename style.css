@@ -416,15 +416,17 @@ a {
     margin-left: 1065px;
 }
 
-.footer .socialFooter a img {
-    margin-right: 50px;
+.footer .socialFooter a {
     opacity: 0.6;
+    transition: 0.3s;
+    margin-right: 50px;
 }
 
-.footer .socialFooter a:nth-child(3) img {
+.footer .socialFooter a:nth-child(3) {
     margin-right: 0;
 }
 
-.footer .socialFooter a img:hover {
+.footer .socialFooter a:hover {
     opacity: 0.9;
+    transition: 0.3s;
 }
