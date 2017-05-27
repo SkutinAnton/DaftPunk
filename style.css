@@ -195,7 +195,7 @@ a {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    border-right: 2px solid silver;
+    border-right: 2px solid #c0c0c0;
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -338,9 +338,9 @@ a {
 }
 
 .news {
-    padding: 0 200px;
+    padding: 0 311px;
     margin-top: 20px;
-    height: 300px;     /*-----------------------Удалить потом*/
+    height: 225px;
 
 }
 
@@ -355,24 +355,76 @@ a {
     font-size: 23px;
     font-weight: 300;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .news form input {
     border: none;
-    border-bottom: 1px solid silver;
+    border-bottom: 2px solid #c0c0c0;
     background: inherit;
     outline: none;
     text-align: center;
     font-size: 17px;
-    width: 230px;
-    margin-right: 40px;
+    width: 250px;
+    margin-right: 30px;
     padding: 7px 0;
+    color: rgb(117, 117, 117);
+}
+
+.news form input:nth-child(5) {
+    margin-right: 0;
 }
 
 .news form input:nth-child(6) {
     display: block;
-    width: 130px;
-    margin: 15px auto;
+    margin: 25px auto;
+    width: 80px;
+    height: 35px;
+    padding: 0;
+    border-radius: 19px;
+    font-size: 15px;
+    box-shadow: 0 1px 5px #c0c0c0;
 }
 
+.news form input:nth-child(6):hover {
+    box-shadow: 0 2px 9px #c0c0c0;
+    cursor: pointer;
+}
+
+.news form input:invalid {
+    border-color: rgba(255, 0, 0, 0.58);
+}
+
+.news form input:focus {
+    border-color: #818181;
+}
+
+.footer {
+    height: 40px;
+}
+
+.footer .address {
+    display: inline-block;
+    color: #757575;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.footer .socialFooter {
+    display: inline-block;
+    margin-left: 1065px;
+}
+
+.footer .socialFooter a img {
+    margin-right: 50px;
+    opacity: 0.6;
+}
+
+.footer .socialFooter a:nth-child(3) img {
+    margin-right: 0;
+}
+
+.footer .socialFooter a img:hover {
+    opacity: 0.9;
+}
