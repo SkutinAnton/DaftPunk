@@ -399,6 +399,10 @@ a {
     border-color: #818181;
 }
 
+.news form input:nth-child(6):focus {
+    border-color: #c0c0c0;
+}
+
 .footer {
     height: 40px;
 }
