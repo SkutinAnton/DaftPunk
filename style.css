@@ -526,4 +526,139 @@ a {
 
     .footer .socialFooter {
         margin-left: 825px;
+    }
+}
+
+@media all and (max-width: 1250px) {
+    .wrapper {
+        width: 900px;
+    }
+
+    .headerTop .social a:nth-child(1) {
+        margin-left: 80px;
+    }
+
+    .headerTop .menu {
+        margin-right: 90px;
+    }
+
+    .headerTop .logo {
+        margin: 16px 0 0 274px;
+    }
+
+    .slider {
+        background: url(img/cover.png), url(img/daftPunk.png) -24px 0;
+        background-size: 968px;
+        height: 550px;
+    }
+
+    .slider .sliderText {
+        margin-top: 180px;
+        margin-left: 172px;
+        width: 550px;
+    }
+
+    .slider .scroll {
+        margin-left: -290px;
+        margin-bottom: -154px;
+    }
+
+    .media .sizeMedia {
+        width: 450px;
+        height: 370px;
+    }
+
+    .media .featured {
+        padding: 65px 63px 0 57px;
+    }
+
+    .media .featured h2 {
+        font-size: 38px;
+    }
+
+    .media .featured p {
+        font-size: 16px;
+    }
+
+    .media .album .disc {
+        left: 148px;
+        top: 50px;
+    }
+
+    .media .album .theBeat {
+        left: 45px;
+        top: 50px;
+    }
+
+    .media .video .videoplayer {
+        width: 450px;
+        height: 370px;
+    }
+
+    .media .musicVideo h2 {
+        font-size: 38px;
+    }
+
+    .media .musicVideo p {
+        font-size: 16px;
+    }
+
+    .media .musicVideo {
+        padding: 74px 24px 0 46px;
+    }
+
+    .event {
+        padding: 80px 40px 0 40px;
+        height: 240px;
+    }
+
+    .event .location h2 {
+        font-size: 40px;
+    }
+
+    .event .location p {
+        font-size: 15px;
+    }
+
+    .event .time .number h2 {
+        font-size: 40px;
+    }
+
+    .event .time .number {
+        margin-right: 80px;
+    }
+
+    .event .time {
+        margin-left: 47px;
+    }
+
+    .photo .instaPhoto {
+        width: 150px;
+        height: 145px;
+    }
+
+    .photo .instagram {
+        top: 77px;
+        left: 358px;
+        width: 180px;
+        height: 130px;
+    }
+
+    .photo .instagram a p {
+        font-size: 28px;
+    }
+
+    .photo .instagram img {
+        margin: 25px auto 17px;
+        width: 35px;
+    }
+
+    .news {
+        padding: 0 41px;
+    }
+
+    .footer .socialFooter {
+        margin-left: 525px;
+    }
+
 }
