@@ -404,7 +404,7 @@ a {
 }
 
 .footer {
-    height: 40px;
+    height: 25px;
 }
 
 .footer .address {
@@ -433,4 +433,87 @@ a {
 .footer .socialFooter a:hover {
     opacity: 0.9;
     transition: 0.3s;
+}
+
+@media all and (max-width: 1491px) {
+    .wrapper {
+        width: 1200px;
+    }
+
+    .headerTop .logo {
+        margin: 16px 0 0 380px;
+    }
+
+    .slider {
+        width: 100%;
+        background: url(img/cover.png), url(img/daftPunk.png) -87px 0;
+    }
+
+    .slider .sliderText {
+        margin-top: 309px;
+        margin-left: 244px;
+        width: 750px;
+    }
+
+    .slider .scroll {
+        margin-left: -411px;
+    }
+
+    .media .sizeMedia {
+        width: 600px;
+    }
+
+    .media .featured {
+        padding: 125px 99px 0 90px;
+    }
+
+    .media .album .disc {
+        left: 230px;
+    }
+
+    .media .album .theBeat {
+        left: 126px;
+    }
+
+    .media .video .videoplayer {
+        width: 600px;
+        height: 480px;
+    }
+
+    .media .musicVideo {
+        padding: 125px 24px 0 75px;
+    }
+
+    .event {
+        padding: 124px 65px 0 60px;
+    }
+
+    .event .time {
+        display: inline-block;
+        margin-left: 86px;
+    }
+
+    .photo .instaPhoto {
+        width: 200px;
+        height: 210px;
+    }
+
+    .photo .instagram {
+        position: absolute;
+        top: 121px;
+        left: 450px;
+        width: 300px;
+    }
+
+    .photo .instagram img {
+        display: block;
+        margin: 32px auto 17px;
+    }
+
+    .news {
+        padding: 0 191px;
+    }
+
+    .footer .socialFooter {
+        margin-left: 825px;
 }
