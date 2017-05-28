@@ -223,6 +223,8 @@ a {
     transition: 0.2s;
 }
 
+/*-----------------------Event-----------------------*/
+
 .event {
     height: 321px;
     box-sizing: border-box;
@@ -275,6 +277,8 @@ a {
     font-weight: 300;
     text-align: center;
 }
+
+/*----------------------Photo-----------------------*/
 
 .photo {
     padding: 4px 0 0 4px;
@@ -336,6 +340,8 @@ a {
     bottom: -19px;
     transition: 0.2s;
 }
+
+/*---------------------News---------------------------*/
 
 .news {
     padding: 0 311px;
@@ -403,6 +409,8 @@ a {
     border-color: #c0c0c0;
 }
 
+/*-------------------------Footer--------------------------*/
+
 .footer {
     height: 25px;
 }
@@ -434,6 +442,8 @@ a {
     opacity: 0.9;
     transition: 0.3s;
 }
+
+/*-------------------------------@Media----------------------------*/
 
 @media all and (max-width: 1491px) {
     .wrapper {
