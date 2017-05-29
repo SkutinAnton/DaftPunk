@@ -702,7 +702,7 @@ a {
     }
 
     .media .featured {
-        padding: 63px 81px 0 82px;
+        padding: 74px 73px 0 69px;
     }
 
     .media .album .disc {
@@ -806,8 +806,124 @@ a {
     }
 }
 
-@media all and (max-width: 950px) {
+@media all and (max-width: 650px) {
+    .wrapper {
+        width: 440px;
+    }
 
+    .headerTop .social a:nth-child(1) {
+        margin-left: 40px;
+    }
 
-    
+    .headerTop .logo {
+        margin: 16px 0 0 93px;
+    }
+
+    .headerTop .menu {
+        margin-right: 56px;
+    }
+
+    .slider {
+        background: url(img/cover.png), url(img/daftPunk.png) -82px 0;
+        background-size: 640px;
+        height: 363px;
+    }
+
+    .slider .sliderText {
+        margin-top: 120px;
+        margin-left: 53px;
+        width: 350px;
+    }
+
+    .slider .scroll {
+        margin-left: -189px;
+        margin-bottom: -100px;
+    }
+
+    .media .sizeMedia {
+        width: 100%;
+        height: 300px;
+    }
+
+    .media .featured {
+        padding: 45px 59px 0 60px;
+    }
+
+    .media .featured p {
+        margin: 24px 0 40px 0;
+    }
+
+    .media .album .disc {
+        left: 154px;
+        top: 30px;
+        width: 240px;
+    }
+
+    .media .album .theBeat {
+        left: 64px;
+        top: 30px;
+        width: 240px;
+    }
+
+    .media .musicVideo {
+        padding: 40px 38px 0 32px;
+        top: -300px;
+    }
+
+    .media .video {
+        bottom: -300px;
+    }
+
+    .media .video .videoplayer {
+        width: 440px;
+        height: 300px;
+    }
+
+    .event {
+        padding: 35px 10px 0 10px;
+        height: 240px;
+    }
+
+    .event .time .number {
+        margin-right: 45px;
+    }
+
+    .photo {
+        padding: 4px 0 0 6px;
+    }
+
+    .photo .instaPhoto {
+        width: 146px;
+        height: 130px;
+    }
+
+    .photo .instagram {
+        top: 207px;
+        left: 150px;
+        height: 97px;
+    }
+
+    .news form input {
+        border-color: rgba(255, 0, 0, 0.58);
+        margin-left: 65px;
+        margin-bottom: 20px;
+    }
+
+    .news form input:nth-child(5) {
+         margin-left: 65px;
+        margin-top: 0;
+    }
+
+    .news form input:nth-child(6) {
+        border-bottom: 2px solid #c0c0c0;
+    }
+
+    .footer .socialFooter a {
+        margin-right: 30px;
+    }
+
+    .footer .socialFooter {
+        margin-left: 105px;
+    }
+
 }
